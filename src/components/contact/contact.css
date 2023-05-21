@@ -60,7 +60,7 @@ input, textarea{
 @media screen and (min-width: 600px){
     .container.contact__container{
         width: var(--container-width-sm);
-        margin-bottom: 20%;
+        
     }
     
 }
