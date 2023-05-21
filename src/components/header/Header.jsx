@@ -1,12 +1,14 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import Me from '../../assets/me.jpg'
+import Me from '../../assets/me.png'
 import Headersocilas from './Headersocilas'
 
+
 function Header() {
+
   return (
-    <header>
+    <header id='home'>
       <div  className='container header__container'>
       <h5>hello i'm</h5>
       <h1>Tanwie Bruno</h1>
