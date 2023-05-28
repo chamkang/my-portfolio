@@ -10,15 +10,21 @@ import Testimonial from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
+
+
 function App() {
+ 
   return (
     <div className="App">
     <>
+  
 <Header/>
 <Navbar/>
 <About/>
 <Experience/>
 <Services/>
+
+
 <Portfolio/>
 <Testimonial/>
 <Contact/>

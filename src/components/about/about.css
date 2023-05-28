@@ -137,9 +137,11 @@ font-family: 'Poppins';
                 margin: 0 auto 3rem ;
                }
                .about__content{
+                padding-bottom: 2rem;
                 text-align: center;
                }
                .about__content p{
+                
                 margin:1.5rem 0;
                 }
                 .about__cards{

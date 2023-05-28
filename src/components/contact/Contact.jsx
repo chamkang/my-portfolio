@@ -4,6 +4,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 import {MdOutlineMailOutline} from 'react-icons/md';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import Particless from '../Particles'
 function Contact() {
   const form = useRef();
 
@@ -19,6 +20,7 @@ function Contact() {
   };
   return (
     <section id='contact'>
+     
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
       <div className='container contact__container'>
