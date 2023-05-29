@@ -1,7 +1,7 @@
 import React from 'react'
 import './services.css'
 import {BiCheck}  from 'react-icons/bi'
-import Particless from '../Particles'
+
 
 function Services() {
     return (
