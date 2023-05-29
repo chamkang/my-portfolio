@@ -4,7 +4,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 import {MdOutlineMailOutline} from 'react-icons/md';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import Particless from '../Particles'
+
 function Contact() {
   const form = useRef();
 
