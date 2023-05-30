@@ -57,10 +57,21 @@ input, textarea{
     }
     
 }
-@media screen and (min-width: 600px){
+@media screen and (max-width: 600px){
+   
+}
+ /*-------------------------media wuery for medium devices---------------------------------------*/
+ @media only screen and (max-width:1024px){ 
+   
+   }
+     /*-------------------------media wuery for small devices---------------------------------------*/
+   @media only screen and (max-width:600px){
     .container.contact__container{
         width: var(--container-width-sm);
-        
+       
+    }
+    #contact{
+        margin-bottom: 5rem;
     }
     
-}
+       }

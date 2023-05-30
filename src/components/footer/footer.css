@@ -55,14 +55,22 @@
     color: #ffa500;
   }
   
-  @media screen and (min-width: 768px) {
-    .footer-content {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  
-    .footer-links {
-      flex-wrap: nowrap;
-    }
+ 
+  /*-------------------------media wuery for medium devices---------------------------------------*/
+ @media only screen and (max-width:1024px){ 
+   
+ }
+   /*-------------------------media wuery for small devices---------------------------------------*/
+ @media only screen and (max-width:600px){
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
   }
+
+  .footer-links {
+    flex-wrap: nowrap;
+  }
+  
+     }
+
   
