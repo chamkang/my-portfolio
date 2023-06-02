@@ -34,13 +34,13 @@ header{
     .me{
         background: linear-gradient(
         var(--color-primary), transparent);
-        height: 20rem;
+        height: 23rem;
         width: 22rem;
         position: absolute;
         left: calc(50% - 11rem); /* to center the element */
-        margin-top: 4rem;
+        margin-top: 2rem;
         border-radius:12rem 12rem 0 0 ;
-        padding: 2rem 1.5rem 1.5rem 0;
+        padding: rem 1.5rem 0rem 0;
         overflow: hidden;
         }
         .scroll__down{

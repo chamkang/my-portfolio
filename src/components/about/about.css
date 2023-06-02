@@ -23,6 +23,8 @@
     position: relative;
     transform: rotate(10deg);
     transition: transform var(--transition); 
+    width: 21REM;
+    height: 22rem;
     
 }
 
@@ -31,52 +33,11 @@
 transition: 0.5s;
     
 }
-.about__me-image:before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background-color: var(--color-primary);
-    opacity: 0;
-    transition: all 0.5s ease;
-  }
-  
-  .about__me-image:hover:before {
-    width: 200%;
-    height: 200%;
-    opacity: 0.8;
-  }
-  .about__me-text {
-    font-family: 'Dancing Script', cursive;
-font-family: 'Poppins';
-   
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    text-align: center;
-    animation: typing 5s linear forwards;
 
-    word-wrap: break-word;
-   
-    color:var(--color-light);
-    /* Add other styles for the text */
-   
-  }
   
-  @keyframes typing {
-    0% {
-      width: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+ 
+  
+  
   
  
 .about__cards{

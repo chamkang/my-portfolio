@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
     <div className="footer-content">
-      <p>© 2023 My L300 portfolio.</p>
+      <p>© 2023  portfolio.</p>
       <ul className="footer-links">
         <li><a href="#home"><RiHome2Line /> Home</a></li>
         <li><a href="#About"><RiInformationLine /> About</a></li>

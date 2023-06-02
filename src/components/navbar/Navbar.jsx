@@ -5,7 +5,7 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageSquareDetail } from 'react-icons/bi';
-import { IoMdClose, IoMdMenu } from 'react-icons/io';
+
 
 function Navbar() {
   const [activeNav, setActiveNav] = useState('#');
@@ -26,7 +26,7 @@ function Navbar() {
 
   return (
     <>
-      {isOpen ? (
+      
         <nav className="navbar-container">
           <a href="#home" onClick={(e) => handleClick(e, 'home')} className={activeNav === 'home' ? 'active' : ''}>
             <AiOutlineHome />
@@ -44,14 +44,11 @@ function Navbar() {
             <BiMessageSquareDetail />
           </a>
           <div className="close-button" onClick={toggleNavbar}>
-            <IoMdClose />
+            
           </div>
         </nav>
-      ) : (
-        <div className="open-button" onClick={toggleNavbar}>
-          <IoMdMenu />
-        </div>
-      )}
+     
+     
     </>
   );
 }

@@ -1,40 +1,13 @@
 import React from 'react'
 import './about.css'
-import Aboutimg from '../../assets/me-about.jpg'
+import Aboutimg from '../../assets/CHAM.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import { BiBook } from 'react-icons/bi';
-import  { useState, useEffect } from 'react';
+
 
 function About() {
-  const [isHovered, setIsHovered] = useState(false);
-  const [text, setText] = useState('');
-
-  const fullText = "HELLO I'M A FULL STACK WEB DEVELOPER";
-
-  useEffect(() => {
-    let currentText = '';
-    let index = 0;
-    let typingInterval;
-
-    if (isHovered) {
-      typingInterval = setInterval(() => {
-        currentText += fullText[index];
-        setText(currentText);
-        index++;
-
-        if (index >= fullText.length) {
-          clearInterval(typingInterval);
-        }
-      }, 100);
-    } else {
-      clearInterval(typingInterval);
-      setText('');
-    }
-
-    return () => clearInterval(typingInterval);
-  }, [isHovered]);
-
+ 
   return (
     <section id='about'>
       <h5>get to</h5>
@@ -42,9 +15,9 @@ function About() {
 
       <div className="container about__container">
         <div className="about__me">
-        <div className="about__me-image"onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+        <div className="about__me-image">
 <img src={Aboutimg} alt='hello'></img>
-<div className="about__me-text">{text}</div>
+<div className="about__me-text"></div>
         </div>
         </div>
         <div className="about__content">
@@ -69,7 +42,9 @@ function About() {
             </article>
 
           </div>
-          <p>Hello, I'm a level 300 student at the Faculty of Engineering and Technology, University of Buea, and I have embarked on an exciting journey into the world of web development. With each passing day, I am fueled by my passion for creating beautiful and functional web experiences</p>
+          <p>Hello, I'm at FET level 300 student, and I have embarked on a journey  of web 
+            development. I am fueled by my passion for creating beautiful and 
+            functional web experiences</p>
         <a href='#contact' className='btn btn-primary'> let's talk</a>
         </div>
       </div>
