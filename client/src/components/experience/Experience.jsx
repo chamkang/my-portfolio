@@ -1,7 +1,10 @@
-import React from 'react'
-import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import React from 'react';
+
+import './experience.css';
+import { BsPatchCheckFill } from 'react-icons/bs';
+
 function Experience() {
+
   return (
     <section id='experience'>
       <h5>what skills i have</h5>
@@ -44,8 +47,9 @@ function Experience() {
             </article>
             <article className='
             experience__details'>
-              
-             
+              <BsPatchCheckFill  className='experience__icons'/>
+              <div><h4>BOOSTRAP</h4>
+              <small className='text-light'>Experienced</small></div>
               
 
             </article>
@@ -77,7 +81,10 @@ function Experience() {
             </article>
             <article className='
             experience__details'>
-             
+              <BsPatchCheckFill  className='experience__icons'/>
+              <div><h4>PHP</h4>
+              <small className='text-light'>Intermediate</small></div>
+              
 
             </article>
             <article className='
