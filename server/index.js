@@ -14,7 +14,7 @@ console.log(process.env.API_PORT)
 
 
 const corsOptions ={
-  origin: ["http://localhost:3000","https://portfolio-website-immp.onrender.com"]
+  origin: ["http://localhost:3000","https://portfolio-cham.onrender.com"]
 }
 /// app.use   
 app.use(cors(corsOptions)); // Enable CORS for all routes
